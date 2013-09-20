@@ -116,7 +116,11 @@
 			<version>4.7</version>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>opensymphony</groupId>
+			<artifactId>sitemesh</artifactId>
+			<version>2.4.2</version>
+		</dependency>
 	</dependencies>
     <build>
         <plugins>
@@ -153,6 +157,11 @@
                 <configuration>
                     <mainClass>org.test.int1.Main</mainClass>
                 </configuration>
+            </plugin>
+            <plugin>
+            	<groupId>org.eclipse.jetty</groupId>
+            	<artifactId>jetty-maven-plugin</artifactId>
+            	<version>9.0.5.v20130815</version>
             </plugin>
         </plugins>
     </build>
