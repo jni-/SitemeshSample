@@ -11,6 +11,6 @@
     <hr />
     <decorator:body />
     <hr />
-    <h1>Footer</b></h1>
+    <h1>Footer</h1>
 </body>
 </html>
